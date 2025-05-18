@@ -1,5 +1,12 @@
 # Personal Portfolio site
+Personal portfolio site. it has a couple things like three.js, so I am using node.js to help build it.
 
-Not much to this. Just a static site with a few minor libraries like bootstrap
+Build and run
+    npm install
+    npm run dev
 
-Just launch the index.html page and everything should work. Nothing needs to be generated...and no databases
+
+## Building for production
+This is being hosted through Cloudflare currently. Running this command creates a "dist" folder.
+
+    npm run build
